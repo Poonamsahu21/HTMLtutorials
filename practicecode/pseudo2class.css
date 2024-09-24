@@ -1,0 +1,24 @@
+body :not(.ppp){
+    color: blue;
+    background-color: aquamarine;
+} 
+
+ div:empty{
+    background: red;
+    border: 2px solid violet;
+    width: 100px;
+    height: 100px;
+}
+
+:root{
+    background-color: chartreuse;
+    color: rgb(10, 6, 0);
+}
+
+html{
+    background-color: turquoise;
+    color: brown;
+}
+/* :root and html are same but specificity of root is more then html */
+
+

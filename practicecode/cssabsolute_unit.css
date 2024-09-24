@@ -1,0 +1,18 @@
+p{
+    /* font-size: 16px;
+    font-size: 32px;
+    font-size: 48px; */
+
+    /* 1 inch = 96 px  (inche) */
+    /* font-size: 1in; */
+
+    /* 1 in = 2.54cm  (centimeter)*/
+    font-size: 2.54cm;
+
+    /* 1 px == 0.75 pt (points) 
+    16px = 0.75 * 16 (12pt) */
+
+    font-size: 16px;
+    font-size: 12pt;
+    border: 4pt solid red ;
+}

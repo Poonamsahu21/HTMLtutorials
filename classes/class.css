@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color:rgb(242, 241, 237);
+}
+.c1{
+    color: rgb(78, 86, 242);
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}

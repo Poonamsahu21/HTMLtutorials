@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+.container{
+    width:1400px;
+    margin: 0 auto;
+}
+h1{
+    background-color: #cdcdcd;
+    text-align: center;
+    padding: 15px 0px;
+}
+section.aboutme, section.aboutlily{
+    border: 2px solid #666;
+    padding: 10px;
+}
+.aboutme{
+    margin-bottom: 40px;
+}
+section h3{
+    text-transform: uppercase;
+    color: darkblue;
+}

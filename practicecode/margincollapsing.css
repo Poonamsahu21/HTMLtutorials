@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1, .box2{
+    border: 2px solid #444;
+    padding: 10px;
+}
+
+.box1{
+    margin-bottom: 40px;
+}
+
+.box2{
+    margin-top: 50px;
+}
+
+/* will in output the margin between box1 and box2 margincollaps show. is not of 90px it is only of 50px bcoz...jiski margin jada hogi vo show karega like 50px marging will be show */

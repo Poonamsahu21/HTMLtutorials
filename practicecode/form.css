@@ -1,0 +1,30 @@
+/*attribute selectors*/
+/* input[type="text"]{
+    color: blue;
+    background-color: aquamarine;
+} */
+
+input[type ^= 't']{
+    color: rgb(5, 46, 5);
+    background-color: lightgreen;
+}
+
+input[type="password"]{
+    background-color: pink;
+}
+
+ /* a[href="https://google.co.in"]{
+    color: black;
+}
+
+a[href *="googlr"]{
+    color: brown;
+} */
+
+a[href ^= "https"]{
+    color: green;
+}
+
+a[href $= ".com"]{
+    color: darkmagenta;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: mintcream;
+    
+}
+main{
+    display: flex;
+}
+div{
+    height: 200px;
+    width: 200px;
+}
+#b1{
+    background-color: aqua;
+}
+#b2{
+    background-color: black;
+}
+#b3{
+    background-color: blue;
+}

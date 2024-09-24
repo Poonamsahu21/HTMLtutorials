@@ -1,0 +1,15 @@
+h4{
+    background-color: black;
+    font-style: italic;
+    color: aqua;
+    font-family: 'Gill Sans';
+    font-size: large;
+    text-align: center;
+}
+p{
+    font-size: medium;
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium';
+    background-color: rgb(12, 11, 10);
+    text-align: center;
+}

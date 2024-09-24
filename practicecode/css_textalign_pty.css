@@ -1,0 +1,13 @@
+h1{
+    background-color:lightblue;
+    text-align: center;
+    width: 500px;
+
+}
+a{
+    display: inline-block;
+    width: 500px;
+    background-color: coral;
+    text-align: center;
+    
+}

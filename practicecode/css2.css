@@ -1,0 +1,46 @@
+/*universal selector*/
+/* *{
+    color: blue;
+} */
+/*universal selector close*/
+header{
+    background-color: antiquewhite;
+}
+
+section.my-articles{
+    background-color: aqua;
+}
+/* p{
+    color: brown;
+} */
+
+/*descendent selector/combinator widely used selector */
+header p{
+    color: rgb(244, 6, 6);
+}
+
+li a{
+    color: red;
+}
+
+section.my-articles h2{
+    color: green;
+}
+
+/*directchild combinator*/
+section.my-articles > h2{
+    color: blueviolet;
+}
+
+/*adjacent selectors/combinators*/
+h2+p{
+    color: orangered;
+}
+
+ul+p{
+    color: rgb(11, 10, 10);
+}
+
+section.my-articles h2+p{
+    color: blue;
+}

@@ -1,0 +1,42 @@
+/* p::first-letter{
+    font-size: 32px;
+} */
+
+/* p::first-line{
+    font-size: 32px;
+} */
+
+/* p::selection{
+    background-color: black;
+    color: white;
+}
+
+h1::selection{
+    background-color: black;
+    color: white;
+} */
+
+.cool::before{
+    content: 'hello ';
+    color: green;
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+
+.cool::after{
+    content: 'world ';
+    color: green;
+    border: 1px solid black;
+    display: block;
+    margin-top: 5px;
+    padding: 4px;
+}
+
+.main::before{
+    content: 'hello user';
+    color: red;
+}
+
+/* after and before properties are not used with img ,br,input  */

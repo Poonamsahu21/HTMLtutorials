@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    height: 300px;
+    width: 230px;
+    border: 1px solid darkgreen;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* z-index use for "jab kis bhi object ko front ,back me lana hai " its starts from 0 1 2 3...so on*/
+#card1{
+    z-index: 4;
+}
+#card2{
+    z-index: 3;
+    rotate: -7deg;
+}
+#card2:hover{
+    z-index: 20;
+}
+#card3{
+    z-index: 2;
+    rotate: -14deg;
+}
+#card3:hover{
+    z-index: 20;
+}
+#card4{
+    z-index: 1;
+    rotate: -21deg;
+}
+#card4:hover{
+    z-index: 20;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

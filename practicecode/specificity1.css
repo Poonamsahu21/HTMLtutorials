@@ -1,0 +1,26 @@
+/* inline style attribute > id selector > class selector > element selector*/
+
+/*specificty of class selector more then element selector */
+
+h1{
+    color: aqua;
+}
+
+/* this type of selector > class selector */
+h1.h1class{
+    color: blue;
+}
+/* from both class selector the specificity of last define class will be more the frist define class  */
+.h1class{
+    color: brown;
+}
+.heading{
+    color: blueviolet;
+}
+
+/*sepecificity of id selector more than class and element selector*/
+
+/* #h1id{
+    color: blueviolet !important;
+} */
+

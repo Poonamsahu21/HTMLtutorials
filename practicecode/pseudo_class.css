@@ -1,0 +1,67 @@
+/* link ,visited,hover,active  */
+/* order of writting thix properties in l->v->h->a */
+/* a:link{
+    color: olive;
+}
+
+a:visited{
+    color: violet;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: black;
+} */
+
+/* p:hover{
+    color: rgb(168, 10, 247);
+}
+p:active{
+    background-color: brown;
+} */
+
+
+/* focus,required pseudo class */
+/* input:focus{
+    padding: 5px;
+    outline: none;
+    border: 2px solid green;
+}
+
+input:required{
+    color: red;
+} */
+
+
+/* :first-child,:first-of-type pseudo class */
+/* p:first-child{
+    /* color: rgb(235, 85, 16); 
+}
+p:first-of-type{
+    /* color: mediumvioletred; 
+} */
+
+
+/* :last-child,:last-of-type pseudo class */
+/* p:last-child{
+    /* color: orangered; 
+} */
+/* p:last-of-type{
+    color: blue;
+} */
+
+
+/* :nth-child(),:nth-of-type() */
+/* p:nth-child(2n){
+    color: green;
+} */
+
+/* p:nth-of-type(2n+1){
+    color: brown;
+    background-color: aqua;
+} */
+
+

@@ -1,0 +1,273 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'gill sans';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 13%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+#fakeheader{
+    height: 13%;
+    width: 100%;
+}
+#logo{
+    height: 70%;
+   
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#contactdetials{
+   
+    font-weight: lighter;
+}
+.texts{
+    margin: 20px;
+    font-size: large;
+    color: rgb(3, 3, 45);
+}
+
+.texts:hover{
+    color: rgb(10, 109, 109);
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: rgb(16, 155, 202);
+}
+
+#login{
+    display: flex;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#login:hover{
+    background-color: rgb(16, 155, 202);
+}
+
+#try{
+    background-color: green;
+    padding: 10px 20px;
+    color: white;
+}
+
+#try:hover{
+    background-color: rgb(0, 46, 0);
+    color: white;
+}
+#page1{
+    height: 87%;
+    width: 100%;
+}
+
+#strip{
+    width: 100%;
+    height: 7%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#strip u{
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    /* background-color: wheat; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 90%;
+    width: 47%;
+    margin-top: 2%;
+    background-color: white;
+}
+
+#box2{
+    margin-top: 2%;
+    height: 90%;
+    width: 47%;
+    /* background-color: gray;*/
+}
+
+
+#heading{
+    width: 100%;
+    height: 16%;
+    color: rgb(24, 24, 180);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading h1{
+    font-weight: 600;
+}
+
+
+#box1 h1{
+    font-weight: 600;
+    font-size: 50px;
+    margin: 30px;
+}
+
+#box1 p{
+    font-weight: lighter;
+    font-size: x-large;
+    margin: 30px;
+}
+
+#btns{
+    display: flex;
+}
+
+#btn1{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(105, 105, 208);
+    border-radius: 5px;
+}
+
+#btn1:hover{
+    background-color: darkblue;
+}
+
+#btn2{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: rgb(127, 127, 200);
+    border: 1px solid rgb(131, 131, 197);
+    border-radius: 5px;
+}
+
+#btn2:hover{
+    background-color: lightblue;
+    color: darkblue;
+    border-color: darkblue;
+}
+
+#box2 {
+    text-align: center;
+    justify-content: center;
+}
+
+#box2 img{
+    width: 100%;
+}
+#page2{
+    height: 87%;
+    width: 100%;
+    background-color:white;
+}
+
+#carddiv{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cards{
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    height: 420px;
+    width: 290px;
+    border: 1px solid rgb(244, 250, 244);
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(252, 250, 250);
+
+    /* justify-content: space-between; */
+}
+#footer{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards img{
+    width: 100%;
+    height: 40%;
+    
+}
+.cards h1{
+    margin-top: 15px;
+    margin-left: 25px;
+    color: darkblue;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Gill Sans';
+}
+.cards p{
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: black;
+    font-size: large;
+    font-weight: lighter;
+    font-family: 'Gill Sans';
+}
+.cards h4{
+    margin-top: 80px;
+    margin-left: 25px;
+    color: darkblue;
+    font-size: large;
+    font-weight: lighter;
+    font-family: 'Gill Sans';
+
+}
+h4:hover{
+    color: rgb(35, 126, 182);   
+}
+
+#footer button{
+    height: 40%;
+    width: 15%;
+    font-size: x-large;
+    border: 2px solid darkblue;
+    background-color: white;
+    color: darkblue;
+}
+
+ #footer button:hover{
+    color: white;
+    background-color: darkblue;
+}

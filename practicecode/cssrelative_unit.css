@@ -1,0 +1,63 @@
+/* div{
+    border: 2px solid red;
+    font-size: 20px;
+    width: 50%;
+} */
+
+/* p{
+    border: 1px solid green;
+    background-color: lightblue;
+    width: 50%;
+    /* 16 px == 100%  */
+    /* 32 px == 200% */
+    /* font-size: 200%; */
+    /* margin: 10px auto; */
+    /* margin-left: 25%; 
+    text-align: center;
+} */
+
+/* html{
+     /* 1 rem==10px  we set
+    font-size: 62.5%;
+    16 px === 100%
+    10px == 100/16*10
+}  */
+
+/* :root{
+    font-size: 2rem;
+} */
+/* div{
+    font-size: 2rem;
+}
+
+.my{
+    border: 1rem solid rebeccapurple;
+    margin: 0.5rem;
+    padding: 2.5rem;
+    font-size: 3rem;
+} */
+
+
+
+/* font size ko dekh ke hi remain properties set hoti hain  */
+h1{
+    font-size: 2em;
+    /* 2em means 2*16px bcoz browers defualt size is 16px */
+
+    border: 2em solid blueviolet;
+    /* 32*2 */
+    padding: 3em;
+    /* 32*3 */
+}
+
+.box1{
+    font-size: 20px;
+    /* 2*20 = 40 font size */
+    /* 40*2 border size  */
+    /* 40*3 padding  */
+}
+
+ /* pefer to use rem for font size ,
+    padding and mardin em 
+    border px
+    layout % */
